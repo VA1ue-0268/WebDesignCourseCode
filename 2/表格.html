@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>网页流量调查表</title>
+</head>
+<body>
+    <h1>网页流量调查表</h1>
+
+    <table border="1">
+        <tr>
+            <th>总页面流量</th>
+            <th>共计来访</th>
+            <th>会员</th>
+            <th>游客</th>
+        </tr>
+        <tr>
+            <td><input type="number" id="pageViews1" onchange="calculateAverage()" /></td>
+            <td><input type="number" id="visitors1" onchange="calculateAverage()" /></td>
+            <td><input type="number" id="members1" onchange="calculateAverage()" /></td>
+            <td><input type="number" id="guests1" onchange="calculateAverage()" /></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="pageViews2" onchange="calculateAverage()" /></td>
+            <td><input type="number" id="visitors2" onchange="calculateAverage()" /></td>
+            <td><input type="number" id="members2" onchange="calculateAverage()" /></td>
+            <td><input type="number" id="guests2" onchange="calculateAverage()" /></td>
+        </tr>
+        <tr>
+            <td><input type="number" id="pageViews3" onchange="calculateAverage()" /></td>
+            <td><input type="number" id="visitors3" onchange="calculateAverage()" /></td>
+            <td><input type="number" id="members3" onchange="calculateAverage()" /></td>
+            <td><input type="number" id="guests3" onchange="calculateAverage()" /></td>
+        </tr>
+        <tr>
+            <td>平均值</td>
+            <td id="averagePageViews" colspan = '3s'></td>
+        </tr>
+    </table>
+
+    <script>
+        function calculateAverage() {
+            const pageViews = [
+                parseFloat(document.getElementById("pageViews1").value) || 0,
+                parseFloat(document.getElementById("pageViews2").value) || 0,
+                parseFloat(document.getElementById("pageViews3").value) || 0
+            ];
+
+            const visitors = [
+                parseFloat(document.getElementById("visitors1").value) || 0,
+                parseFloat(document.getElementById("visitors2").value) || 0,
+                parseFloat(document.getElementById("visitors3").value) || 0
+            ];
+
+            const members = [
+                parseFloat(document.getElementById("members1").value) || 0,
+                parseFloat(document.getElementById("members2").value) || 0,
+                parseFloat(document.getElementById("members3").value) || 0
+            ];
+
+            const guests = [
+                parseFloat(document.getElementById("guests1").value) || 0,
+                parseFloat(document.getElementById("guests2").value) || 0,
+                parseFloat(document.getElementById("guests3").value) || 0
+            ];
+
+            const averagePageViews = (pageViews.reduce((a, b) => a + b, 0) / 3).toFixed(2);
+            const averageVisitors = (visitors.reduce((a, b) => a + b, 0) / 3).toFixed(2);
+            const averageMembers = (members.reduce((a, b) => a + b, 0) / 3).toFixed(2);
+            const averageGuests = (guests.reduce((a, b) => a + b, 0) / 3).toFixed(2);
+
+            document.getElementById("averagePageViews").textContent = averagePageViews;
+            document.getElementById("averageVisitors").textContent = averageVisitors;
+            document.getElementById("averageMembers").textContent = averageMembers;
+            document.getElementById("averageGuests").textContent = averageGuests;
+        }
+
+        calculateAverage(); // Calculate average on page load
+    </script>
+</body>
+</html>

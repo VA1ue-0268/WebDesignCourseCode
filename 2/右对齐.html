@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* 添加样式以使箭头右对齐 */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            width: 400px; /* 固定宽度 */
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .arrow {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="#">这是第一行的超链接</a>
+            <span class="arrow"><img src="img1.png" /></span>
+        </li>
+        <li>
+            <a href="#">这是第二行的超链接，文本比第一行长</a>
+            <span class="arrow">➡️</span>
+        </li>
+        <li>
+            <a href="#">第三行</a>
+            <span class="arrow">➡️</span>
+        </li>
+        <li>
+            <a href="#">第四行的超链接，这一行的文本最长</a>
+            <span class="arrow">➡️</span>
+        </li>
+    </ul>
+</body>
+</html>
