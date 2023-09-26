@@ -1,0 +1,28 @@
+td {
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
+
+table tr:first-child td {
+    border-top: none;
+    border-bottom: 1px solid black;;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}
+
+.red {
+    /* 添加样式规则，例如设置颜色和字体大小 */
+    color: red;
+
+}
+
+.blue {
+    /* 添加样式规则，例如设置颜色和字体大小 */
+    color: blue;
+    font-size: 30px;
+    font-style: italic;
+}

@@ -1,0 +1,49 @@
+\documentclass[12pt, a4paper, roman]{moderncv}
+
+\usepackage{paralist}
+\usepackage[UTF8, scheme = plain, heading = false]{ctex}
+\usepackage{geometry}
+
+\moderncvstyle{classic}
+\moderncvcolor{purple}
+
+\geometry{scale = 0.75}
+\AtBeginDocument{\settowidth{\hintscolumnwidth}{2020 年 -- 2023 年}}
+\AtBeginDocument{\hypersetup{pdfstartview = FitH}}
+
+\name{何}{景烨}
+\title{个人简历}
+\email{HJY@future-world.net}
+\phone[mobile]{+86~130~400~8000}
+\homepage{www.future-world.net}
+\photo{1.jpg}
+
+\begin{document}
+\maketitle
+
+\section{教育背景}
+\cventry{2020 年 -- 2023 年}{深圳技术大学}{}{}{\textit{物联网工程}}{核心课程：一堆东西}
+
+\section{计算机技能}
+\cvitem{C/C++}{熟悉，学过}
+\cvitem{Python}{熟悉，学过}
+\cvitem{HTML}{不熟悉，在学}
+\cvitem{\LaTeX}{不熟悉，在学}
+
+\section{外语技能}
+\cvitemwithcomment{英语}{熟练}{过六级}
+\cvitemwithcomment{德语}{简单对话}{幼儿园水平}
+
+\section{实践背景}
+\subsection{校内实践}
+\cventry{2022 年}{面向穿戴康复机器人应用的高精度低功耗sEMG肌电采集系统}{}{}{}{
+    \begin{compactitem}
+        \item 开发STM32F4嵌入式程序，使用ADC采集模拟前端芯片放大的人体表面肌肉电信号（sEMG）；
+        \item 通过DMA方式传输ADC数据，定时器中断确定采样率，实现对模拟信号的数字采集；
+        \item 通过IIR滤波算法实现对工频信号的滤波处理；
+        \item 使用SPI配置模拟前端芯片寄存器，实现改变芯片放大倍数功能；
+        \item 通过UART将数据上传到上位机，实现肌电信号的模式识别功能。
+    \end{compactitem}
+}
+
+\end{document}

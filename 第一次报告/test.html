@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* 隐藏表格边框 */
+  table {
+    border-collapse: collapse;
+  }
+
+  /* 设置左边表格右对齐 */
+  .left-table {
+    text-align: right;
+    width: 25%; /* 左边表格宽度为25% */
+  }
+
+  /* 设置中间表格宽度为两边表格的两倍 */
+  .middle-table {
+    width: 50%; /* 中间表格宽度为50% */
+  }
+
+  /* 设置右边表格左对齐 */
+  .right-table {
+    text-align: left;
+    width: 25%; /* 右边表格宽度为25% */
+  }
+</style>
+</head>
+<body>
+<table>
+  <tr>
+    <td class="left-table">
+      <!-- 左边表格内容 -->
+      左边的表格
+    </td>
+    <td class="middle-table">
+      <!-- 中间表格内容 -->
+      中间的表格
+    </td>
+    <td class="right-table" rowspan="2">
+      <!-- 右边表格内容 -->
+      右边的表格
+      <br>
+      <img src="1.jpg" alt="插入的图片">
+    </td>
+  </tr>
+  <tr>
+    <td class="left-table">
+      <!-- 左边表格内容 -->
+      左边的表格
+    </td>
+    <td class="middle-table">
+      <!-- 中间表格内容 -->
+      中间的表格
+    </td>
+  </tr>
+</table>
+</body>
+</html>
