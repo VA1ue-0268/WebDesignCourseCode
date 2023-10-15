@@ -1,0 +1,19 @@
+/* 设置标题样式 */
+.title {
+    font-size: 24px; /* 标题大小为24px */
+    font-weight: bold; /* 加粗显示 */
+    margin-top: 40px; /* 标题行距40px */
+    color: red;
+}
+
+/* 设置正文样式 */
+.content {
+    font-size: 12px; /* 正文大小为12px */
+    line-height: 20px; /* 行距20px */
+    color:cadetblue
+}
+
+
+.center-image {
+    vertical-align: middle;
+}

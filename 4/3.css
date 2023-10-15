@@ -1,0 +1,26 @@
+/* 设置所有段落标签中的文本字体大小为14px */
+p {
+    font-size: 14px;
+    color: green;
+}
+
+/* 把body的后代元素h2字体设置为16px */
+body h2 {
+    font-size: 16px;
+}
+
+/* 使用类选择器设置第一个h2元素的字体颜色为红色 */
+h2.first-heading {
+    color: red;
+}
+
+/* 使用通用兄弟选择器把第一个h2元素后面的所有兄弟h2元素设置为蓝色 */
+h2.first-heading ~ h2 {
+    color: blue;
+}
+
+/* 使用子选择器把第一张图片设置为宽度887px，高度为439px */
+body:first-child{
+    width: 887px;
+    height: 439px;
+}
