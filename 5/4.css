@@ -1,0 +1,64 @@
+
+
+/* 大标题样式 */
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    background: linear-gradient(to right, #007bff, #00c4ff);
+    display: inline-block; /* 使用inline-block以确保固定宽度生效 */
+    width: 190px; /* 设置固定宽度 */
+    text-align: left; /* 文字居中 */
+    border-radius: 5px; /* 添加圆角 */
+    color: white;
+}
+
+/* 电器分类样式 */
+.categories {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.categories a:hover {
+    text-decoration: underline;
+}
+
+/* 分类内容样式 */
+.content {
+    font-size: 12px;
+    line-height: 26px;
+}
+
+.content a {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.content a:hover {
+    color: #a52a2a; /* 棕红色 */
+    text-decoration: underline;
+}
+
+.categories1 {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.3s, text-decoration 0.3s;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    background: linear-gradient(to bottom, #00aeff, white);
+    display: inline-block; /* 使用inline-block以确保固定宽度生效 */
+    width: 150px; /* 设置固定宽度 */
+    text-align: left; /* 文字居中 */
+    border-radius: 5px; /* 添加圆角 */
+    color: blue;
+    display: inline-block;
+}
+
+.categories1:hover {
+    color: #a52a2a; /* 棕红色 */
+    text-decoration: underline;
+}

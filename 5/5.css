@@ -1,0 +1,31 @@
+
+
+div{
+    width: 280px;
+
+    background: linear-gradient(to top,#edde35,#f8f6f3);
+}
+h1{
+    text-indent: 1em;
+    line-height: 30px;
+    font-size: 16px;
+    color: white;
+    background-color:#00871b;
+    background-repeat: no-repeat;
+
+}
+a{
+    color: #1a66b3;
+    font-size: 12px;
+    line-height: 28px;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+img {
+    vertical-align: middle;
+}
