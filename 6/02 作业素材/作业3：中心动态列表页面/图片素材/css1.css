@@ -1,0 +1,52 @@
+.news-container {
+    margin: 30px;
+    width: 240px;
+    /* height: 250px; */
+    /* border: 1px solid #999; */
+    box-sizing: border-box; /* 盒子模型解析方式为border-box */
+    margin:0 auto;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* 鼠标移入时添加圆角阴影 */
+    background: linear-gradient(to bottom, #3193f5, #ffffff 40%);
+  }
+  
+  .news-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+h2 {
+    color: white;
+    padding: 10px;
+    border-bottom: #ffffff 2px solid;
+}
+
+  .news-list li {
+    padding: 10px;
+    margin: 0;
+    font-size: 15px;
+    color:white;
+    border-radius: 10px 10px 0 0;
+    border-bottom:2px #ffffff;
+  }
+  .news-list li.a {
+    transition: color 0.3s; /* 添加颜色变化过渡效果 */
+    color: #999;
+    list-style-type:none;
+    background-image: url('dotBg.gif'); 
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .news-list li:hover {
+    color: darkred; /* 鼠标移入时字体颜色变为暗红色 */
+  }
+  .dashed-divider {
+    border-top: 1px dashed #999; /* 设置虚线样式，可调整颜色和粗细 */
+    width: 100%; /* 设置宽度 */
+  }  
+  img{
+    vertical-align: middle;
+}
+

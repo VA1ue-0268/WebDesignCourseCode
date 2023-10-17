@@ -1,0 +1,65 @@
+/* styles.css */
+
+/* 使用并集选择器来设置内外边距为0 */
+
+h1 {
+    color: white;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: medium;
+}
+
+.course-navigation {
+    /*border-top: 2px solid #0077b6; /* 设置导航列表上边框 */
+    background-image: url(".//图片素材/bg.jpg");
+    background-repeat: no-repeat;
+    height: 320px;
+}
+
+.center-image {
+    vertical-align: middle;
+    padding-left: 30px;
+}
+
+form {
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 3px;
+    transform: scale(0.8);
+    transform-origin: 0 0;
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+.course-list-item {
+    padding-top: 6px;
+    padding-bottom: 10px;
+    background-image: url('.//图片素材/dotBg.gif');
+    color: #000;
+    font-weight: bold;
+    /* background-image: url('dotBg.gif');  */
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 2px dotted #dee2e6;
+}
+
+.course-list-item-last {
+    padding-top: 6px;
+    padding-bottom: 10px;
+    background-image: url('.//图片素材/dotBg.gif');
+    color: #000;
+    font-weight: bold;
+    /* background-image: url('dotBg.gif');  */
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.course-list-item:hover {
+    color: red; /* 鼠标移入时字体颜色变为暗红色 */
+}

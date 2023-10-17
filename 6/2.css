@@ -1,0 +1,36 @@
+body {
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 16px; /* 设置字体大小为16px，你可以根据需要调整大小 */
+    height: 30px;
+    align-items: center;
+    display: flex;
+}
+
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+dt {
+    font-weight: bold;
+    padding-left: 20px;
+    background: url('1.jpg') left center no-repeat;
+    background-size: 16px 16px;
+}
+
+dd {
+    margin: 0;
+    padding: 10px 0;
+    padding-left: 20px;
+    border-bottom: 1px dashed #ccc;
+}

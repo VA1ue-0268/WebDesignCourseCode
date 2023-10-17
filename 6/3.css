@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    margin: 30px;
+}
+
+.news-box {
+    width: 230px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.news-title {
+    background: linear-gradient(to bottom, #ff6600, #fafafa);
+    text-align: left;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px dashed gray;
+}
+
+.news-item {
+    line-height: 26px;
+    padding: 0 10px;
+}
+
+.news-item:hover {
+    color: darkred;
+}
+
+span {
+    font-weight: bold;
+}

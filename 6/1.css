@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* 使用并集选择器来设置内外边距为0 */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* 设置字体大小为16px，你可以根据需要调整大小 */
+}
+
+h1 {
+    color: #2772ff;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* 设置字体大小为16px，你可以根据需要调整大小 */
+}
+
+.course-navigation {
+    
+    background: url('2.jpg') no-repeat;
+    background-size: 100000px;
+    border: 1px solid #95faea;
+    /*border-top: 2px solid #0077b6; /* 设置导航列表上边框 */
+    margin: 0 auto; /* 居中显示 */
+    width: 160px;
+}
+
+.center-image {
+    width: 20px;
+}
+
+.course-title {
+    /* color: #fff; */
+    background: url('2.jpg') no-repeat;
+    background-size: 100000px;
+    text-align: left;
+}
+
+.course-list {
+    list-style-type: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+.course-list-item {
+    background: url('2.jpg') no-repeat;
+    background-position: right;
+    border-bottom: 1px solid #dee2e6;
+    position: relative;
+}

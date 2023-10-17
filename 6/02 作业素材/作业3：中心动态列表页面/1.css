@@ -1,0 +1,56 @@
+/* styles.css */
+
+/* 使用并集选择器来设置内外边距为0 */
+
+h1 {
+    color: white;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: medium;
+}
+
+.course-navigation {
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(0, 153, 255), #fafafa 30%);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1), 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+    /*border-top: 2px solid #0077b6; /* 设置导航列表上边框 */
+    margin: 30px;
+    width: 300px;
+    margin:0 auto;
+}
+
+.center-image {
+    vertical-align: middle;
+}
+
+.course-title {
+    /* color: #fff; */
+    padding-left: 5px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.course-list {
+    list-style-type: none;
+    margin:0 auto;
+    padding-top: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+.course-list-item {
+    padding-top: 6px;
+    padding-bottom: 10px;
+    background-image: url('.//图片素材/dotBg.gif');
+    color: #999;
+    /* background-image: url('dotBg.gif');  */
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.course-list-item:hover {
+    color: red; /* 鼠标移入时字体颜色变为暗红色 */
+}
