@@ -1,0 +1,164 @@
+/* 基本样式 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 页面宽度设置为990px并水平居中 */
+
+article { 
+    width: 100%;
+}
+
+/* 页眉样式 */
+header {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.logo {
+    float: left;
+    margin-right: 10px;
+    margin-left: 250px;
+}
+
+h1 {
+    float: left;
+    font-size: 24px;
+    vertical-align: middle;
+    font-weight: 400;
+}
+
+/* 页脚样式 */
+footer {
+    color: rgb(109, 109, 109);
+    padding: 10px 0;
+}
+
+footer a {
+    color: rgb(109, 109, 109);
+    padding: 10px 0;
+}
+
+/* 主体内容样式 */
+.content {
+    padding: 20px;
+    background-color: rgb(233, 56, 84);
+    
+}
+
+.wrap {
+    background: url('3.png') no-repeat;
+    width: 990px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.login-box {
+    width: 990px;
+    height: 400px;
+}
+
+.login-form {
+    float: right;
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 0;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 2px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: left;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"]{
+    color: #ccc;
+    width: 87%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+input[type="submit"] {
+    width: 99%;
+    padding: 10px;
+    margin-top: 5px;
+    color: white;
+    background-color: rgb(233, 56, 84);
+    border: #ccc;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+.right {
+    float: right;
+    color: black;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+.register-link {
+    float: right;
+}
+
+.username-label::before {
+    content: "\1F400"; /* Unicode字符 🐀 表示蹄片 */
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+.register-link::before {
+    content: "➜"; /* Unicode字符 ➜ 表示右箭头 */
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%; /* 创建圆形 */
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+  .input-container {
+    position: relative;
+  }
+
+  .input-container img {
+    position: absolute;
+    left: 0px; /* 调整图像的位置 */
+    top: 55%; /* 将图像垂直居中 */
+    transform: translateY(-50%);
+  }
+
+  .input-container input {
+    padding-left: 30px; /* 确保输入框的文本不被图像遮盖 */
+  }

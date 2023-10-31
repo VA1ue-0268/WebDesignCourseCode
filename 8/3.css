@@ -1,0 +1,33 @@
+body {
+    width: 1012px;
+    margin: 0 auto;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+.one-yuan-seckill {
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
+
+.qr-code-ad {
+    position: absolute;
+    top: 20px;
+    right: -160px;
+}
+
+.online-support {
+    position: fixed;
+    top: 100px;
+    left: 20px;
+}
+
+.mobile-lottery {
+    position: fixed;
+    bottom: 300px;
+    right: 20px;
+}

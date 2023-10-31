@@ -1,0 +1,58 @@
+/* 基本样式 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* 容器样式 */
+.container {
+    width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+}
+
+/* 标题样式 */
+h1 {
+    font-size: 24px;
+}
+
+/* 活动列表样式 */
+.activity-list {
+    list-style: none;
+    padding: 20px;
+
+}
+
+.activity {
+    float: left;
+    margin-right: 20px;
+}
+
+.activity img {
+    max-width: 300px;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.activity p {
+    text-align: center;
+}
+
+/* 更多链接样式 */
+.more-link {
+    float: right;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: gray;
+}
+
+.title {
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}

@@ -1,0 +1,43 @@
+/* styles.css */
+.link-card {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+}
+
+.link-card:hover {
+    background-color: blue;
+    color: white;
+}
+
+.link1 {
+    top: 0;
+    left: 0;
+}
+
+.link2 {
+    top: 0;
+    left: 200px;
+}
+
+.link3 {
+    top: 200px;
+    left: 0px;
+}
+
+.link4 {
+    top: 200px;
+    left: 200px;
+}
+
+.link5 {
+    top: 100px;
+    left: 100px;
+}
