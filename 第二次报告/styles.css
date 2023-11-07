@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center; /* 水平居中对齐 */
+    align-items: center; /* 垂直居中对齐 */
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    border: none;
+}
+
+
+.left-table {
+    text-align: right;
+    width: 15%;
+}
+
+.middle-table0 {
+    width: 50%;
+    text-align: left;
+}
+
+.middle-table1 {
+    width: 50%;
+    text-align: right;
+}
+
+
+.right-table {
+    text-align: right;
+    width: 10%;
+}
+
+
+.gray-text {
+    color: gray;
+    transition: transform 0.5s, transform-origin 0.5s;
+}
+
+.black-text {
+    color: black;
+    transition: transform 0.5s, transform-origin 0.5s;
+}
+
+.toscale {
+    transition: transform 0.5s, transform-origin 0.5s;
+}
+
+.toscale:hover, .black-text:hover{
+    transform: scale(1.1);
+    transform-origin: left;
+}
+
+.gray-text:hover{
+    transform: scale(1.1);
+    transform-origin: right;
+}
+
+.purple-bar {
+    height: 5px;
+    background-color: rgb(162, 0, 255);
+}
+
+.purple-text {
+    font-size: 30px;
+    color: rgb(162, 0, 255);
+}
+
+.purple-text-small {
+    color: rgb(162, 0, 255);
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    text-align: left;
+    margin-left: 1em;
+    position: relative;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    left: -1em;
+    top: 0.5em;
+    width: 0.5em;
+    height: 0.5em;
+    border: 2px solid purple;
+    border-radius: 50%;
+}
+
+
+.right-table img {
+    box-shadow: 5px 5px 10px #888888;
+    transition: transform 0.3s, transform-origin 0.3s, scale 0.3s;
+}
+
+.right-table:hover img {
+    transform: rotate(360deg) scale(1.2);
+    transform-origin: center;
+}

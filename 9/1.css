@@ -1,0 +1,42 @@
+/* 基本样式 */
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.button-list {
+    list-style: none;
+    padding: 0;
+}
+
+.button-list li {
+    float: left;
+    margin: 10px;
+}
+
+.button-list a {
+    display: block;
+    text-decoration: none;
+}
+
+.button-list img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s, transform-origin 0.3s, scale 0.3s;
+}
+
+/* 鼠标悬停效果 */
+.button-list a:hover img {
+    transform: rotate(360deg) scale(1.2);
+    transform-origin: center;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

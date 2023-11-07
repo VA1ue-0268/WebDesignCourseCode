@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* 初始状态样式 */
+  .element {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .element {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    box-shadow: 0 0 0 transparent;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+
+  /* 悬停状态样式 */
+  .element:hover {
+    transform: scale(1.3); /* 缩放 */
+    box-shadow: 5px 5px 10px #888888; /* 阴影 */
+  }
+</style>
+</head>
+<body>
+  <div class="element">将鼠标放在此元素上</div>
+</body>
+</html>
